@@ -1,55 +1,44 @@
-#wrapper {
-    width: 960px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    background-color: #DCDCDC;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: #383838;
+/*Resume*/
+nav #Menu{
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
 }
-
-nav {
-    background-color: #686868;
-}
-
-nav#Menu ul {
+nav #Menulist {
+    font-family: 'Josefin Sans', sans-serif;
     list-style-type: none;
-    padding-top: 15px;
-    margin: 0;
+    margin: .5px;
+    padding: auto;
     overflow: hidden;
+    background-color: #EDDE5D;
+    text-align: center;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
 }
-
-nav#Menu ul li {
-    display: inline-table;
-    margin: 0 15px;
-}
-
-nav#Menu ul li a {
+.list {
+     float: left;
+     margin: 5%;
+     position: center;
+ }
+#Menulist a {
     display: block;
-    background-color: #686868;
-    color: white;
-    font-weight: bold;
+    color: steelblue;
+    text-align: center;
+    padding: .50%;
+    width: max-content;
     text-decoration: none;
-    width: 100px;
-    padding: 10px 0px 30px 0px;
-    border-radius: 4px;
+    position: center;
+}
+.list a:hover {
+    background-color: #EDDE5D;
+    font-size: large;
+}
+body {
+    background-image:
+            linear-gradient(to left top, #FF512F, #F09819);
+    color: #16222a;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-nav#Menu ul li a:hover {
-    background-color: #585858;
-}
+/*Photography*/
 
-p a {
-    color: #0099CC;
-    text-decoration: none;
-}
 
-p a:hover {
-    color: #0033CC;
-}
-
-ul {
-    list-style-type: none;
-}
+/*Pcrepair*/
