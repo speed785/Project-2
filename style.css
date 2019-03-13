@@ -3,11 +3,15 @@ nav #Menu{
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
 }
+/*Add a line separating everything under my name and create the text more centralized(centered)
+Also add projects from before as links.
+side note: add physical buttons for external websites like github and instagram and Linkeded
+*/
 nav #Menulist {
     font-family: 'Josefin Sans', sans-serif;
     list-style-type: none;
     margin: .5px;
-    padding: auto;
+    padding: 0px;
     overflow: hidden;
     background-color: #EDDE5D;
     text-align: center;
@@ -36,6 +40,7 @@ body {
             linear-gradient(to left top, #FF512F, #F09819);
     color: #16222a;
     font-family: 'Josefin Sans', sans-serif;
+
 }
 
 /*Photography*/
