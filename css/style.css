@@ -10,8 +10,8 @@ side note: add physical buttons for external websites like github and instagram 
 nav #Menulist {
     font-family: 'Josefin Sans', sans-serif;
     list-style-type: none;
-    margin: .5px;
-    padding: 0px;
+    margin: 20px;
+    padding: .5px;
     overflow: hidden;
     background-color: #EDDE5D;
     text-align: center;
