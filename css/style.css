@@ -20,7 +20,6 @@ nav #Menulist {
 .list {
      float: left;
      margin: 5%;
-     position: center;
  }
 #Menulist a {
     display: block;
@@ -29,7 +28,6 @@ nav #Menulist {
     padding: .50%;
     width: max-content;
     text-decoration: none;
-    position: center;
 }
 .list a:hover {
     background-color: #EDDE5D;
