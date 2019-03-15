@@ -7,6 +7,17 @@ nav #Menu{
 Also add projects from before as links.
 side note: add physical buttons for external websites like github and instagram and Linkeded
 */
+h1,h2,h3,h4,h5,h6,p,li {
+    text-align:center;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
 nav #Menulist {
     font-family: 'Josefin Sans', sans-serif;
     list-style-type: none;
@@ -37,7 +48,8 @@ body {
     background-image:
             linear-gradient(to left top, #FF512F, #F09819);
     color: #16222a;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif
+    text-align: center;
 
 }
 
